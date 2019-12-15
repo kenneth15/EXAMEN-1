@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SISTEMA DE COLUMNAS EF</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<style>
+    div [class*="col"] {
+        background: #2121a3;
+        color: #FFF;
+        font-size: 1.2rem;
+        padding: 1rem;
+        font-weight: bold;
+        /* NEGRITA*/
+        text-align: center;
+        border: 1px solid #000;
+    }
+    
+    .row {
+        margin: 10px 0;
+    }
+	
+
+
+</style>
+
+<body>
+    <div class="container">
+        <h3 class="text-center d-none d-xl-block font-weight-bold">VISTA Extra largo (XL - 1200px &ang; )</h3>
+        <h3 class="text-center d-none d-lg-block d-xl-none">VISTA ESCRITORIO (LG - 992px)</h3>
+        <h3 class="text-center d-none d-md-block d-lg-none">VISTA MEDIA- TABLET (MD - 768px)</h3>
+        <h3 class="text-center d-none d-sm-block d-md-none">VISTA pequeña (SM - 576px)</h3>
+        <h3 class="text-center d-sm-none">VISTA Inicial (0  -- 575px)</h3>
+        <div class="row justify-content-lg-end justify-content-xl-between justify-content-md-end justify-content-around justify-content-sm-center">
+            <div class="col-3 col-sm-4  d-md-none  col-xl-4 col-lg-2  d-lg-block   ">
+                1-(3)
+
+            </div>
+            <div class="col-3 col-sm-4 col-md-8 col-xl-6  d-lg-none col-lg-5  d-xl-block  order-3   ">
+                2-(3)
+            </div>
+            <div class=" col-5 col-sm-12 col-lg-8 col-xl-1 col-md-2 ml-md-5 ml-lg-0  order-sm-3   d-xl-block ">
+                3-(5)
+            </div>
+        </div>
+
+        <div class="row justify-content-between   justify-content-md-end  justify-content-sm-end">
+            <div class=" col-4  col-sm-4 col-md-4 ml-xl-4 col-lg-3 mr-sm-5  order-xl-2 col-xl-2   mr-xl-0 mr-lg-5 offset-sm-1  d-sm-block  d-none  offset-sm-1 offset-md-0 mr-md-4 mr-lg-0  d-xl-block   order-lg-2 order-xl-3 ">
+                1-(4)
+
+            </div>
+            <div class="col-4  col-sm-4 col-md-2 col-xl-4 ml-0 order-xl-3 ml-md-3  col-lg-2    offset-sm-1 offset-1 offset-md-0  order-lg-1 ">
+                2-(4)
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 order-xl-1 mr-xl-5 ml-md-0 col-xl-5 col-lg-5 ml-lg-5 offset-sm-2  ml-xl-0   offset-2 offset-sm-1 offset-md-0   ml-lg-0   order-lg-3 d-sm-block">
+                3-(6) - ML
+            </div>
+        </div>
+
+        <div class="row justify-content-xl-center justify-content-lg-around  justify-content-sm-around justify-content-md-start justify-content-center">
+            <div class="col-2 col-sm-2 col-md-3 d-xl-block order-sm-4 mr-xl-0 col-xl-4 col-lg-4  d-lg-none order-md-2 order-1  order-1">
+                1-(2)
+            </div>
+            <div class="col-1 col-sm-2 order-sm-2 order-xl-3 d-md-none col-xl-2 col-lg-7  col-md-4  d-lg-block   order-md-1  order-4">
+                2-(1)
+            </div>
+            <div class="col-1  col-sm-2 col-md-3 col-xl-4 order-sm-3 d-md-block col-lg-4 d-md-none  d-lg-none  d-xl-none   order-2">
+                3-(1)
+            </div>
+            <div class="col-2 col-sm-2  col-lg-4 ml-lg-3 col-xl-2 order-xl-2  order-3 order-sm-1 m-xl-0">
+                4-(2)
+            </div>
+            <div class="col-2 col-md-3 col-xl-3 order-xl-4 d-xl-block  d-lg-none d-md-block order-md-1 order-5 d-sm-none  ">
+                5-(2)
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
